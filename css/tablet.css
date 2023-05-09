@@ -1,0 +1,23 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .menu-link-name,
+  .menu img {
+    display: none;
+  }
+
+  .border_bottom {
+    width: 100%;
+  }
+
+  .icon-4 {
+    font-size: 24px;
+  }
+
+
+  /* mục tiêu */
+
+.target-small,
+.personal-info-small {
+  
+}
+
+}

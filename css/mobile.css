@@ -1,0 +1,131 @@
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* menu */
+  .menu-link-name,
+  .menu img {
+    display: none;
+  }
+
+  .container-mobile {
+    max-width: 540px;
+    margin: auto;
+  }
+
+  .menu-link {
+    display: block;
+    text-align: left;
+    border: none;
+    font-size: 18px;
+  }
+
+  .menu {
+    padding: 26px !important;
+  }
+
+  /* mục tiêu */
+
+  .target-small,
+  .personal-info-small {
+  }
+
+  .border_bottom {
+    display: none;
+  }
+
+  .img-web {
+    border-left: none;
+  }
+
+  .ccweb {
+    border-bottom: 1px solid #e0d1ae;
+    margin-bottom: 32px;
+  }
+
+  .icon-project {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 8px;
+  }
+
+  .icon-4 {
+    font-size: 20px;
+  }
+}
+
+/* Dưới 576px */
+@media screen and (max-width: 576px) {
+  .menu-link-name,
+  .menu img {
+    display: none;
+  }
+
+  .menu-link {
+    display: block;
+    text-align: left;
+    margin-left: 30px;
+    border: none;
+    padding: 12px;
+  }
+
+  /* Mục tiêu nghề nghiệp */
+
+  .target-small {
+    padding: 24px 48px !important;
+  }
+
+  .personal-info-small {
+    padding: 24px 0 !important;
+  }
+
+  /* chứng chỉ */
+  .img-web {
+    border-left: none;
+  }
+
+  .img-web {
+    border-left: none;
+  }
+
+  .border_bottom {
+    display: none;
+  }
+
+  .ccweb {
+    border-bottom: 1px solid #e0d1ae;
+    margin-bottom: 32px;
+    padding: 8px !important;
+  }
+
+  .ccweb-small {
+    padding: 0 !important;
+  }
+
+  .title-web {
+    padding: 0 !important;
+  }
+
+  .ccdn {
+    padding: 20px !important;
+  }
+
+  /* kinh nghiệm */
+  .experience-bottom {
+    margin-bottom: 20px;
+    padding: 0 24px !important;
+  }
+
+  .icon-project {
+    display: block;
+    margin-left: 0 !important;
+    margin-top: 8px;
+  }
+
+  /* footer */
+  .icon-4 {
+    font-size: 18px;
+  }
+
+  /* dự án */
+  .project-small {
+    padding: 24px !important;
+  }
+}

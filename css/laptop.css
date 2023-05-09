@@ -1,0 +1,235 @@
+:root {
+  --color-blue-: #199cdb;
+  --color-text-: #868e96;
+  --color-bg-: #f7f7f7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'inter', sans-serif, serif;
+  font-size: 13px !important ;
+  line-height: 1.5;
+
+}
+
+/* Phần banner */
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  position: relative;
+  filter: brightness(0.7);
+}
+
+.name {
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  position: absolute;
+  text-align: center;
+}
+
+.name p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.name span {
+  color: #d8d7db;
+  font-size: 0.7rem;
+}
+
+/* THANH ĐIỀU HƯỚNG */
+.menu {
+  text-align: center;
+  position: relative;
+}
+
+.menu img {
+  width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 6px solid #f7f7f7;
+}
+
+.menu-link {
+  text-decoration: none;
+  border-left: 1px solid #eeeeee ;
+  color: #454545;
+  display: inline-block;
+}
+
+      /* Phần tên giữu menu */
+.menu-link-name {
+  display: inline-block;
+  border-left: 1px solid #eeeeee ;
+  line-height: 1.3;
+  padding: 6px 62px;
+  vertical-align: middle;
+}
+
+.menu-link-name p {
+  font-size: 18px;
+}
+
+.menu-link-name span {
+  font-size: 10px;
+  color: #ced4da;
+}
+
+
+        /* Icon-1 */
+  .icon-1 {
+    color: var(--color-blue-);
+  }
+
+  /* MỤC TIÊU NGHỀ NGHIỆP */
+.target {
+  background-color: #f7f7f7;
+}
+
+.personal-info {
+  background-color: #f1f3f5;
+}
+
+
+/* KINH NGHIỆM HỌC VẤN */
+
+.experience h3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.experience .border { /* tạo khung bên ngoài các Box */
+  border: 1px solid #eeeeee;
+  padding: 0.9rem;
+}
+
+.to-day {
+  background-color:  var(--color-blue-);
+  border-radius: 8px;
+  padding: 0px 10px;
+  color: #f7f7f7;
+}
+
+
+.experience li::marker {
+  color: var(--color-blue-); /* Chỉnh màu butlet cho Học vấn*/
+}
+
+      /* phần sở thích  */
+.music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 10px;
+  width: 52px;
+  gap: 8px;
+}
+
+.icon__2 {
+  border: 1px solid var(--color-blue-);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding-top: 7px;
+  color: var(--color-blue-);
+  font-size: 14px !important;
+}
+
+/* Phần ngôn ngữ */
+.gach-xanh {
+  height: 2px;
+  width: 36px;
+  background-color:  var(--color-blue-);
+  display: inline-block;
+  margin-bottom: 12px;
+  margin-right: 6px;
+}
+
+.gach-xam {
+  background-color: #868e96;
+}
+
+.tieng-anh {
+ margin-bottom: 6px;
+}
+
+.icon__3 {
+  color: var(--color-text-);
+}
+
+/* CHỨNG CHỈ GIẢI THƯỞNG */
+.bg-grey {
+  background-color: #f7f7f7;
+}
+
+.img-1 {
+  width: 100%;
+}
+
+.img-web {
+  border-left: 1px solid #e0d1ae;
+  
+}
+
+.border_bottom {
+  width: 80%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #e0d1ae;
+}
+
+
+/* DỰ AN */
+.img-2 {
+ width: 100%;
+}
+
+.cv {
+  display: inline-block;
+  background-color: var(--color-blue-);
+  padding: 0 6px;
+  border-radius: 20px;
+  border: 1px solid var(--color-blue-);
+  color: fff;
+}
+
+
+table {
+  font-size: 13px;
+  
+}
+
+.h-experience {
+  height: 100%;
+}
+
+.experience {
+  margin-bottom: 48px;
+}
+
+.btn {
+  font-size: 13px !important;
+}
+
+
+/* FOOTER */
+.icon-4 {
+  font-size: 28px;
+  vertical-align: middle;
+}
